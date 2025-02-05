@@ -6,15 +6,14 @@ nav {
   padding: 10px 20px;
 }
 body {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   margin: 0px;
   padding: 0px;
-  background-color:antiquewhite;
+  background-color: antiquewhite;
 }
 .logo {
   width: 200px;
   height: 200px;
-  
 }
 .nav-items {
   list-style: none;
@@ -41,23 +40,70 @@ body {
   border-radius: 5px;
 }
 .hero {
-    text-align: center;
-    padding: 50px;
-    
-    color: black
+  text-align: center;
+  padding: 50px;
+  font-weight: bolder;
+  color: black;
 }
 
 .hero h1 {
-    font: size 600px;
-    margin-bottom: 10px;
+  font: size 700px;
+  margin-bottom: 20px;
 }
 
 .hero p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
+  font-size: 19px;
+  margin-bottom: 20px;
 }
 
 button {
-    padding: 10px 20px;
-    font-size: 1em;
-    border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  border: white;
+  background-color: antiquewhite;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: purple;
+}
+
+/*Page Layout */
+main {
+  padding: 40px;
+  text-align: center;
+}
+
+h2 {
+  color: purple;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  font-size: 19px;
+  margin: 10px ;
+}
+/*  The Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+ margin: 0 auto;
+}
+
+input {
+  padding: 10px;
+  border: whitesmoke;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #f8c4c4;
+  text-align: center;
+  padding: 30px;
+  margin-top: 30px;
+}
