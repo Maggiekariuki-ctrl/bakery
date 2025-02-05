@@ -1,1 +1,13 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: plum; /* Adjust color */
+  padding: 10px 20px;
+}
+.logo {
+  width: 100px
+}
+
+
 
