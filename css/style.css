@@ -5,6 +5,12 @@ nav {
   background-color: plum; /* Adjust color */
   padding: 10px 20px;
 }
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0px;
+  padding: 0px;
+  background-color:antiquewhite;
+}
 .logo {
   width: 200px;
   height: 200px;
@@ -34,3 +40,24 @@ nav {
   background-color: pink;
   border-radius: 5px;
 }
+.hero {
+    text-align: center;
+    padding: 50px;
+    
+    color: black
+}
+
+.hero h1 {
+    font: size 600px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
