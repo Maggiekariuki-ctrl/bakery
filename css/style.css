@@ -84,15 +84,16 @@ ul {
 }
 li {
   font-size: 19px;
-  margin: 10px ;
+  margin: 10px;
 }
+
 /*  The Contact Form */
 form {
   display: flex;
   flex-direction: column;
   gap: 10px;
   max-width: 300px;
- margin: 0 auto;
+  margin: 0 auto;
 }
 
 input {
@@ -106,4 +107,15 @@ footer {
   text-align: center;
   padding: 30px;
   margin-top: 30px;
+}
+.img1 {
+  width: 500px;
+  display: flex;
+  align-items: flex-start;
+  float: inline-start;
+}
+.img2 {
+  display: flex;
+  width: 500px;
+  float: right;
 }
