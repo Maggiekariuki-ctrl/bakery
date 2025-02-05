@@ -9,13 +9,17 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 :root {
-  color: palevioletred;
+  --main-color: palevioletred;
+  --nav-color: plum;
+  --bg-color: antiquewhite;
+  --black: purple;
 }
 html {
   font-size: larger;
+  overflow-x: hidden;
 }
 body {
-  background-color: antiquewhite;
+  background-color: var(--bg-color);
 }
 .header {
   background-color: plum;
