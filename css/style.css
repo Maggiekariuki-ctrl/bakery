@@ -43,12 +43,13 @@ body {
   text-align: center;
   padding: 50px;
   font-weight: bolder;
+  font-size: 30px;
   color: black;
+  border: 3px solid palevioletred;
 }
 
 .hero h1 {
-  font: size 700px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .hero p {
@@ -66,7 +67,7 @@ button {
 }
 
 button:hover {
-  background-color: purple;
+  background-color: pink;
 }
 
 /*Page Layout */
@@ -118,4 +119,27 @@ footer {
   display: flex;
   width: 500px;
   float: right;
+}
+.list {
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+}
+.img4 {
+  width: 500px;
+  display: flex;
+  float: left;
+  align-items: flex-start;
+}
+.img5 {
+  width: 500px;
+  float: right;
+}
+#menuList {
+  border: solid palevioletred;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 400px;
+  width: 100%;
 }
